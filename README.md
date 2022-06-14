@@ -1,5 +1,5 @@
 # The implementation of AlphaFuzz
-This is an implementation of AlphaFuzz. The arXiv link is :
+This is an implementation of AlphaFuzz.
 
 **Changes for data structure.** 
 
