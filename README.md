@@ -1,9 +1,9 @@
-# The implementation of Alphuzz
-We implement this prototype of our approach on top of AFL 2.52b. 
+# The implementation of AlphaFuzz
+This is an implementation of AlphaFuzz. The arXiv link is :
 
 **Changes for data structure.** 
 
-We changed the queue structure of AFL into a tree structure. Specifically, we construct a seed mutation tree during fuzzing process based on the mutation relationships among seeds. For example, if Alphuzz mutates seed A and generates a new seed B. If seed B is an interesting inputs, we add it to the tree as a child node of A.
+We changed the queue structure of AFL into a tree structure. Specifically, we construct a seed mutation tree during fuzzing process based on the mutation relationships among seeds. For example, if AlphaFuzz mutates seed A and generates a new seed B. If seed B is an interesting inputs, we add it to the tree as a child node of A.
 
 **Changes for seed scheduling strategy.** 
 
@@ -26,7 +26,7 @@ The installation is the same as AFL.
 
 Compile the program with:
 ```bash
-$ cd /path/to/Alphuzz
+$ cd /path/to/AlphaFuzz
 $ make
 ```
 You can start using the fuzzer without installation, but it is also possible to
