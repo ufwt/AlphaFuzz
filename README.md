@@ -15,9 +15,6 @@ We propose a new seed scheduling strategy based on the MCTS algorithm. First, st
 We leverage the UCT algorithm to calculate the score of seed. **Formula 1** shows the calculation of 𝑠𝑒𝑒𝑑_𝑠𝑐𝑜𝑟𝑒.
 ![](formula.png)
 
-**Algorithm 2** shows the details of implementation.
-
-![](algorithm2.png)
 
 
 # Installation instructions
